@@ -13,18 +13,18 @@ The Agenda of the project involves deriving Movie Recommendations using Python a
 𝗨𝘀𝗮𝗴𝗲 𝗼𝗳 𝗗𝗮𝘁𝗮𝘀𝗲𝘁:  
 Here we are going to use Movielens data in the following ways:  
 
-● 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗶𝗼𝗻: During the extraction process, the Movielens data zip file is extracted to get the CSV files out of it in two ways: the Databricks local file system(DFS) and the Azure data factory(ADF) copy pipeline.  
+➡️𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗶𝗼𝗻: During the extraction process, the Movielens data zip file is extracted to get the CSV files out of it in two ways: the Databricks local file system(DFS) and the Azure data factory(ADF) copy pipeline.  
 
-● 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗟𝗼𝗮𝗱: During the transformation and load process, the uploaded dataset in Spark is read into Spark data frames. Data tags are also read into Spark in Databricks, and output is displayed through a Bar chart. And dataset is finally analyzed in Databricks into Spark, and movies are recommended.  
+➡️𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗟𝗼𝗮𝗱: During the transformation and load process, the uploaded dataset in Spark is read into Spark data frames. Data tags are also read into Spark in Databricks, and output is displayed through a Bar chart. And dataset is finally analyzed in Databricks into Spark, and movies are recommended.  
 
 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀:  
-● From the grouplens website, data is downloaded containing names of movies, ratings given to the movies, links of the movies, and tags assigned to the movies.  
-● Resource manager is created in Azure to categorize the resources required, followed by a Storage account.  
-● The Copy Data pipeline is created to copy the data from Azure blob storage to Azure data lake storage in the Azure data factory.  
-● The Databricks workspace and cluster are created and accessed Azure data lake storage from Databricks followed by the creation of Mount pairs.   
-● The extraction process is done by extracting the Movielens data zip file to get the CSV files out of it using the Databricks file system(DFS) and using the Azure data factory(ADF).  
-● In the transformation and load process, the uploaded dataset in Spark is read into Spark data frames. Data tags are read into Spark in Databricks.  
-● Finally, data is analyzed into Spark in Databricks using mount points, and data is visualized using bar charts.  
+➡️From the grouplens website, data is downloaded containing names of movies, ratings given to the movies, links of the movies, and tags assigned to the movies.  
+➡️Resource manager is created in Azure to categorize the resources required, followed by a Storage account.  
+➡️The Copy Data pipeline is created to copy the data from Azure blob storage to Azure data lake storage in the Azure data factory.  
+➡️The Databricks workspace and cluster are created and accessed Azure data lake storage from Databricks followed by the creation of Mount pairs.   
+➡️The extraction process is done by extracting the Movielens data zip file to get the CSV files out of it using the Databricks file system(DFS) and using the Azure data factory(ADF).  
+➡️In the transformation and load process, the uploaded dataset in Spark is read into Spark data frames. Data tags are read into Spark in Databricks.  
+➡️Finally, data is analyzed into Spark in Databricks using mount points, and data is visualized using bar charts.  
 
 ![image](https://user-images.githubusercontent.com/70576003/199225975-7e7adf67-ec3f-4a4f-ac81-6f6506b238e0.png)  
 
